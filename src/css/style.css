@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFEDD5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+}
+
+.savana {
+    position: absolute;
+    opacity: 0.05;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+header {
+    padding: 32px 0;
+    text-align: center; /* alinha o texto */
+}
+
+header p {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+header,
+section {
+    max-width: 300px;
+    margin: 0 auto; /* com auto nas laterais ele centraliza a caixa */
+}
+
+header h1 span {
+    color: #995000;
+}
+
+h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 16px;
+    width: 300px;
+    display: flex; /* Alinha elementos filhos dentro da caixa pai um do 
+                    lado do outro */
+}
+
+li .details {
+    max-width: 240px;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.details p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+}
